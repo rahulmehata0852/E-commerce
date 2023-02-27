@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap By SKILLHUB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+
+<body>
+    <!-- collapse in search bar -->
+    <div class="collapse alert alert-primary m-0" id="search">
+        <div class="container">
+            <div class="input-group">
+
+                <input type="text" name="" id="" class="form-control" placeholder="Username">
+                <button type="button" class="btn btn-primary">Search</button>
+            </div>
+            <h3 class="my-4">Quick links</h3>
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <p><a href="">Link1</a></p>
+                    <p><a href="">Link2</a></p>
+                    <p><a href="">Link3</a></p>
+                    <p><a href="">Link4</a></p>
+                    <p><a href="">Link5</a></p>
+                </div>
+                <div class="col-sm-3">
+                    <p><a href="">Link1</a></p>
+                    <p><a href="">Link2</a></p>
+                    <p><a href="">Link3</a></p>
+                    <p><a href="">Link4</a></p>
+                    <p><a href="">Link5</a></p>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+
+                                <div class="col-sm-6">
+                                    <img class="img-fluid"
+                                        src="https://m.media-amazon.com/images/I/41YamNJ29mL._SX300_SY300_.jpg" alt="">
+                                </div>
+                                <div class="col-sm-6">
+
+                                    <h3>Featured Product</h3>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                    <button type="button" class="btn btn-outline-primary">Shop now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- END search collapse -->
+
+
+
+
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">SKILLCART</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <!-- dropdown st -->
+
+                    <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown">
+                        Menu
+                    </button>
+                    <div class="dropdown-menu alert alert-primary w-100">
+                        <div class="container">
+
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="d-flex my-5 gap-4">
+                                        <span class="fs-1">Icon</span>
+                                        <div>
+                                            <h3>Lptop</h3>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="d-flex my-5 gap-4">
+                                        <span class="fs-1">Icon</span>
+                                        <div>
+                                            <h3>Lptop</h3>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="d-flex my-5 gap-4">
+                                        <span class="fs-1">Icon</span>
+                                        <div>
+                                            <h3>Lptop</h3>
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                    <!-- dropdown end -->
+                </div>
+
+
+                <!-- navbar st -->
+                <div class="ms-auto">
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="collapse"
+                        data-bs-target="#search"><i class="bi bi-search"></i></button>
+
+                    <button type="button" class="btn btn-light" data-bs-toggle="offcanvas" data-bs-target="#cart"><i
+                            class="bi bi-bag-check">Sh</i></button>
+
+                    <button type="button" class="btn btn-light" data-bs-toggle="offcanvas"
+                        data-bs-target="#login">login</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar end -->
+    <!-- login start -->
+
+    <div class="offcanvas offcanvas-start" id="login">
+        <div class="offcanvas-header">
+            <h6 class="offcanvas-title">SKILLCART</h6>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Enter email</p>
+            <input type="text" name="" id="" placeholder="Enter email here" class="w-75">
+            <p>Enter password</p>
+            <input type="text" name="" id="" placeholder="Enter password" class="w-75">
+            <br><br>
+            <button type="button" class="btn btn-primary w-100">login</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- login end -->
+    <!-- cart start (ship) -->
+
+
+    <div class="offcanvas offcanvas-start" id="cart">
+        <div class="offcanvas-header bg-primary">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">cart</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <img class="img-fluid"
+                                src="https://rukminim1.flixcart.com/image/312/312/xif0q/computer/k/b/8/15s-fr4000tu-thin-and-light-laptop-hp-original-imaghrcwmt7v5svk.jpeg?q=70"
+                                alt="">
+                        </div>
+                        <div class="col-sm-3">
+                            <span>Qty : 2</span>
+                        </div>
+                        <div class="col-sm-4">
+                            <strong>7811/-</strong>
+                        </div>
+                    </div>
+                    <h5 class="text-success">You have saved 750/-</h5>
+                    <div class="btn-group w-100">
+                        <button type="button" class="btn btn-danger">remove</button>
+                        <button type="button" class="btn btn-warning">wishlist</button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <img class="img-fluid"
+                                src="https://rukminim1.flixcart.com/image/312/312/xif0q/computer/k/b/8/15s-fr4000tu-thin-and-light-laptop-hp-original-imaghrcwmt7v5svk.jpeg?q=70"
+                                alt="">
+                        </div>
+                        <div class="col-sm-3">
+                            <span>Qty : 2</span>
+                        </div>
+                        <div class="col-sm-4">
+                            <strong>7811/-</strong>
+                        </div>
+                    </div>
+                    <h5 class="text-success">You have saved 750/-</h5>
+                    <div class="btn-group w-100">
+                        <button type="button" class="btn btn-danger">remove</button>
+                        <button type="button" class="btn btn-warning">wishlist</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- cart end (ship) -->
+
+
+
+    <!-- front carousel st -->
+
+    <div id="carouselExampleCaptions" class="carousel slide mt-5" data-bs-ride="carousel" data-bs-interval="200">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                class="active"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-sm-6 text-end">
+                        <img class="img-fluid"
+                            src="https://rukminim1.flixcart.com/image/312/312/xif0q/computer/e/1/7/-original-imag3ebnzawky4kn.jpeg?q=70"
+                            alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>Dell Xps 13 pro</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempore.</p>
+                        <button type="button" class="btn btn-primary">SHOP NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-sm-6 text-end">
+                        <img class="img-fluid"
+                            src="https://rukminim1.flixcart.com/image/312/312/xif0q/computer/e/1/7/-original-imag3ebnzawky4kn.jpeg?q=70"
+                            alt="">
+                    </div>
+                    <div class="col-sm-6">
+                        <h3>Dell Xps 13 pro</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, tempore.</p>
+                        <button type="button" class="btn btn-primary">SHOP NOW</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- front carousel end -->
+
+
+
+    <!-- laptop ke miche wala patti st -->
+    <div class="bg-primary text-light">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="d-flex gap-3 py-2">
+                        <i class="bi bi-credit-card-2-back fs-1"></i>
+                        <div>
+                            <h4>Secure checkout</h4>
+                            <span>guaranteed safe checkout</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="d-flex gap-3 py-2">
+                        <i class="bi bi-credit-card-2-back fs-1"></i>
+                        <div>
+                            <h4>Secure checkout</h4>
+                            <span>guaranteed safe checkout</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="d-flex gap-3 py-2">
+                        <i class="bi bi-credit-card-2-back fs-1"></i>
+                        <div>
+                            <h4>Secure checkout</h4>
+                            <span>guaranteed safe checkout</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- laptop ke miche wala patti end -->
+
+
+
+    <!-- Featured products st -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <img class="img-fluid"
+                                    src="https://rukminim1.flixcart.com/image/832/832/ktaeqvk0/laptop-skin-decal/s/6/m/hd-printed-easy-to-install-full-panel-laptop-skin-sticker-original-imag6z2dmqcahmsh.jpeg?q=70"
+                                    alt="">
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="img-fluid"
+                                    src="https://rukminim1.flixcart.com/image/612/612/ktaeqvk0/laptop-skin-decal/d/r/4/hd-printed-easy-to-install-full-panel-laptop-skin-sticker-original-imag6z2dgze9gg9j.jpeg?q=70"
+                                    alt="">
+                                <img class="img-fluid"
+                                    src="https://rukminim1.flixcart.com/image/612/612/ktaeqvk0/laptop-skin-decal/6/7/8/hd-printed-easy-to-install-full-panel-laptop-skin-sticker-original-imag6z2djgfrzzdb.jpeg?q=70"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="alert alert-primary">
+                        <div class="d-flex justify-content-between">
+
+                            <span>Fake Brand</span>
+                            <span>Starting from 78872/- </span>
+                        </div>
+                        <button type="button" class="mt-4 btn btn-outline-primary w-100">Shop now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <img class="img-fluid"
+                                    src="https://rukminim1.flixcart.com/image/832/832/ktaeqvk0/laptop-skin-decal/s/6/m/hd-printed-easy-to-install-full-panel-laptop-skin-sticker-original-imag6z2dmqcahmsh.jpeg?q=70"
+                                    alt="">
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="img-fluid"
+                                    src="https://rukminim1.flixcart.com/image/612/612/ktaeqvk0/laptop-skin-decal/d/r/4/hd-printed-easy-to-install-full-panel-laptop-skin-sticker-original-imag6z2dgze9gg9j.jpeg?q=70"
+                                    alt="">
+                                <img class="img-fluid"
+                                    src="https://rukminim1.flixcart.com/image/612/612/ktaeqvk0/laptop-skin-decal/6/7/8/hd-printed-easy-to-install-full-panel-laptop-skin-sticker-original-imag6z2djgfrzzdb.jpeg?q=70"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="alert alert-primary">
+                        <div class="d-flex justify-content-between">
+
+                            <span>Fake Brand</span>
+                            <span>Starting from 78872/- </span>
+                        </div>
+                        <button type="button" class="mt-4 btn btn-outline-primary w-100">Shop now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-8">
+                                <img class="img-fluid"
+                                    src="https://rukminim1.flixcart.com/image/832/832/ktaeqvk0/laptop-skin-decal/s/6/m/hd-printed-easy-to-install-full-panel-laptop-skin-sticker-original-imag6z2dmqcahmsh.jpeg?q=70"
+                                    alt="">
+                            </div>
+                            <div class="col-sm-4">
+                                <img class="img-fluid"
+                                    src="https://rukminim1.flixcart.com/image/612/612/ktaeqvk0/laptop-skin-decal/d/r/4/hd-printed-easy-to-install-full-panel-laptop-skin-sticker-original-imag6z2dgze9gg9j.jpeg?q=70"
+                                    alt="">
+                                <img class="img-fluid"
+                                    src="https://rukminim1.flixcart.com/image/612/612/ktaeqvk0/laptop-skin-decal/6/7/8/hd-printed-easy-to-install-full-panel-laptop-skin-sticker-original-imag6z2djgfrzzdb.jpeg?q=70"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="alert alert-primary">
+                        <div class="d-flex justify-content-between">
+
+                            <span>Fake Brand</span>
+                            <span>Starting from 78872/- </span>
+                        </div>
+                        <button type="button" class="mt-4 btn btn-outline-primary w-100">Shop now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card border-success border-5">
+
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <button type="button" class="btn btn-success">Most popular</button>
+                            <span><i class="bi bi-heart"></i></span>
+                        </div>
+
+                        <img class="img-fluid ps-5 mt-3"
+                            src="data:image/jpeg;base64,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"
+                            alt="">
+                        <h4 class="text-center">Accessories Routers</h4>
+                        <div class="text-center">
+
+                            <span><i class="bi bi-star"></i></span>
+                            <span><i class="bi bi-star"></i></span>
+                            <span><i class="bi bi-star"></i></span>
+                            <span><i class="bi bi-star"></i></span>
+                            <span><i class="bi bi-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4"></div>
+        </div>
+    </div>
+    <!-- Featured products end -->
+
+
+</body>
+
+</html>
